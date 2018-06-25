@@ -1,0 +1,36 @@
+<html>
+    <head>
+            <meta charset="utf-8">
+            <meta name="viewport" content="width=device-width, initial-scale=1">
+            <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+            <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+            <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+    </head>
+    <body >
+        <div class=" navbar-default">
+           
+              
+                    <!-- <nav class="navbar navbar-default" style="background-color: white"> -->
+                            <div class="container-fluid">
+                        <div class="navbar-header">
+                </div>
+                <ul class="nav navbar-nav" >
+                
+                    <li id="admin"><a routerLink="/admin" id style="color:black">ADMIN&nbsp;<i class="fa fa-lock" style="font-size:20px;" aria-hidden="true"></i></a></li>
+                    <li id="user"><a routerLink="/user" style="color:black">USER&nbsp;<i class="fa fa-user-circle" style="font-size:20px;" aria-hidden="true"></i></a></li>
+                  <li id="broker"><a routerLink="/broker" style="color:black">BROKER&nbsp;<i class="fa fa-handshake-o" style="font-size:20px" aria-hidden="true"></i></a></li>
+                </ul>
+            </div>
+            <!-- </nav> -->
+           
+           </div>
+           
+            <router-outlet></router-outlet>
+    </body>
+</html>
+
+
+
+
+<!-- <app-header></app-header> -->
+<!-- <router-outlet></router-outlet> -->

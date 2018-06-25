@@ -1,0 +1,15 @@
+.navbar-default  {
+    color: black;
+    background-color: white;
+    height: 100%; 
+}
+
+.navbar-default .navbar-nav > .active > a, 
+  .navbar-default .navbar-nav > .active > a:hover
+  {
+    background: #00C4CC 0%;
+  } 
+//   .navbar-default .navbar-nav > .active > a:focus {
+//           color: white;
+//     background: rgb(18, 149, 229);
+//    }
